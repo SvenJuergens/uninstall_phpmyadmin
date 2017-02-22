@@ -7,6 +7,7 @@ Now there is no excuse.
 uninstall_phpmyadmin is an Extbase-CommandController-Task to uninstall und remove the extension phpmyadmin.
 
 **Install:**
+
 install the ext: uninstall_phpmyadmin and create a scheduler task.
 Choose "Extbase CommandController Task" and as CommandController Command "UninstallPhpmyadmin"
 
@@ -14,3 +15,8 @@ Choose "Extbase CommandController Task" and as CommandController Command "Uninst
 ![Scheduler example Config](scheduler-config.png)
 
 run at end of working day und phpmyadmin is gone :)
+
+_**Note**_
+
+with version 1.1.0 the scheduler task is auto enabled and disabled if phpmyadmin is installed or uninstalled
+
