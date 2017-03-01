@@ -70,6 +70,7 @@ class ControlTask
         $fields = [
             'serialized_task_object' => serialize($task),
             'disable' => $task->isDisabled(),
+            'nextexecution' => $task->getNextDueExecution()
         ];
 
         $this->getDatabaseConnection()->exec_UPDATEquery(
