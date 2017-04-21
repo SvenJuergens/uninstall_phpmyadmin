@@ -1,5 +1,5 @@
 {
-  "name": "SvenJuergens/uninstall_phpmyadmin",
+  "name": "svenjuergens/uninstall_phpmyadmin",
   "description": "Scheduler Task for uninstall and delete phpmyadmin Extension",
   "keywords": ["typo3", "extension", "composer.json"],
   "homepage": "https://github.com/SvenJuergens/uninstall_phpmyadmin",
